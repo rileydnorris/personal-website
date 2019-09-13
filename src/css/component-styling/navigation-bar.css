@@ -1,0 +1,33 @@
+a {
+    color: rgb(56, 56, 56)
+}
+
+.navigation__bar {
+    display: table;
+    width: 100%;
+    padding: 23px 40px;
+    box-sizing: border-box;
+}
+
+.navigation__header-title {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.navigation__item-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.navigation__item {
+    margin: auto 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navigation__underline {
+    display: block;
+    margin: 0px 25px;
+}
