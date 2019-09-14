@@ -1,5 +1,5 @@
-import React, {Component} from '../../node_modules/react';
-import '../css/component-styling/navigation-bar.css'
+import React, {Component} from 'react';
+import './navigation-bar.css'
 
 export default class NavigationBarComponent extends Component {
     

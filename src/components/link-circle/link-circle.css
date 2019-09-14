@@ -4,8 +4,6 @@
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    /* background-color: darkred; */
-
     text-align: center;
 }
 
@@ -17,9 +15,8 @@
 
 .circle__button {
     display: table-cell;
-    padding-bottom: 3px; /* Pushing button up because perfectly centered looks off based on font */
+    padding-bottom: 2px; /* Pushing button up because perfectly centered looks off based on font */
     vertical-align: middle;
-
     text-decoration: none;
     color: white;
 }
