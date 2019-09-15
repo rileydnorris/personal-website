@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import LinkCircleComponent from '../../components/link-circle/link-circle'
 import professional_photo from '../../images/professional_photo.jpg'
 
-import '../../pages/home/home.css';
+import './home.css';
 
 export default class HomePage extends Component {
     constructor(props) { super(props) }

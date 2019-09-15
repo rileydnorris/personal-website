@@ -1,0 +1,26 @@
+.experience__container {
+}
+
+.experience__container--image {
+    display: inline-block;
+    width: 18%;
+    padding: 60px 45px 45px 45px;
+}
+
+.experience__container--aboutme {
+    display: inline-block;
+    width: 70%;
+    padding: 45px 2.5% 0px 2.5%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.experience__image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.experience__aboutme-description {
+    width: 100%;
+}

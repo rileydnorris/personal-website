@@ -1,0 +1,60 @@
+/* Containers */
+
+.pro__container {
+    padding: 80px 80px 0px 80px;
+    box-sizing: border-box;
+}
+
+.pro__container--date-and-details {
+    display: flex;
+    vertical-align: top;
+}
+
+.pro__container--date {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+}
+
+.pro__container--details {
+    display: inline-block;
+    width: 50%;
+}
+
+/* Items */
+
+.pro__underline {
+    width: 10%;
+    margin-bottom: 80px;
+}
+
+.pro__date--top {
+    margin: 5px;
+    top: 0px;
+    font-style: italic;
+}
+
+.pro__date--bottom {
+    margin: 5px;
+    position: absolute;
+    bottom: 0px;
+    font-style: italic;
+}
+
+.pro__detail__title {
+    margin: 0px;
+}
+
+.pro__detail__link {
+    margin: 0px;
+    color: var(--theme_blue);
+}
+
+.pro__detail__job-title {
+    margin: 5px 0px;
+    font-style: italic;
+}
+
+.pro__detail__description {
+    white-space: pre-wrap;
+}

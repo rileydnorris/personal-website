@@ -5,6 +5,7 @@ import FooterComponent from './components/footer/footer'
 import ExperiencePage from './pages/experience/experience';
 import HomePage from './pages/home/home';
 import './app/shared.css';
+import './app/colors.css';
 
 function App() {
   return (

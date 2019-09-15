@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import './link-circle.css'
-import { white, black, redBright, red } from 'ansi-colors'
 
 export default class LinkCircleComponent extends Component {
 
