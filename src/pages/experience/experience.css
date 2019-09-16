@@ -14,6 +14,7 @@
     box-sizing: border-box;
     vertical-align: top;
     text-align: justify;
+    white-space: pre-wrap;
 }
 
 .experience__image {
