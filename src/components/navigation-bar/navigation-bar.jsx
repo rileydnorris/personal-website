@@ -10,9 +10,6 @@ export default class NavigationBarComponent extends Component {
         return (
             <div>
                 <div className="navigation__bar">
-                    <div className="navigation__header-logo">
-                        RN
-                    </div>
                     <Link className="navigation__header-title" to="/home">Riley Norris</Link>
 
                     <div className="navigation__item-container">

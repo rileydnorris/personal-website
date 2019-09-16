@@ -1,13 +1,14 @@
 .image-card__container {
     display: inline-block;
     width: 30%;
-    height: 450px;
+    height: 485px;
     margin: 0px 20px;
     vertical-align: top;
     text-align: left;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    position: relative;
 }
 
 .image-card__container--details {
@@ -28,4 +29,12 @@
 
 .image-card__description {
     text-align: justify;
+}
+
+.image-card__link {
+    font-size: 18px;
+    color: var(--theme_blue);
+    font-style: italic;
+    position: absolute;
+    bottom: 20px;
 }

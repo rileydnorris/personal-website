@@ -7,6 +7,7 @@ import './projects.css'
 import GithubPhoto from '../../images/github.png'
 import LinkedInPhoto from '../../images/linkedin.png'
 import YouTubePhoto from '../../images/youtube.png'
+import TextCardComponent from '../../components/text-card/text-card';
 
 export default class ProjectsPage extends Component {
     
@@ -25,6 +26,21 @@ export default class ProjectsPage extends Component {
                     <ImageCardComponent data={Constants.proj_openInvite}/>
                     <ImageCardComponent data={Constants.proj_functionField}/>
                     <ImageCardComponent data={Constants.proj_pythonInstructor}/>
+                </div>
+
+                <TitleHeaderComponent data={Constants.head_skills}/>
+                <div className="text-card-items__container">
+                    <TextCardComponent title="iOS Development"/>
+                    <TextCardComponent title="AWS"/>
+                    <TextCardComponent title="Git"/>
+                    <TextCardComponent title="Jira"/>
+                    <TextCardComponent title="Python"/>
+                    <TextCardComponent title="Backend Development"/>
+                    <TextCardComponent title="C++"/>
+                    <TextCardComponent title="Javascript"/>
+                    <TextCardComponent title="Swift"/>
+                    <TextCardComponent title="Microsoft Suite"/>
+                    <TextCardComponent title="C#"/>
                 </div>
             </div>
         )
