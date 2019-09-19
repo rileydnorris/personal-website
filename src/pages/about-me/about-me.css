@@ -1,0 +1,18 @@
+/* Containers */
+
+.me__content-container {
+    margin: 40px;
+}
+
+.me__title-body-container {
+    display: inline-block;
+    padding: 0px 120px 0px 60px;
+    width: 70%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.me__v-image-container {
+    display: inline-block;
+    width: 20%;
+}

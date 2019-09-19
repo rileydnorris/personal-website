@@ -1,6 +1,9 @@
 import OpenInvitePicture from '../images/open-invite-1.PNG';
 import FunctionFieldPicture from '../images/function-field.jpg';
 import PythonPicture from '../images/python.png';
+import GreecePicture from './../images/temple.jpg';
+import ChristmasPicture from './../images/family-christmas.jpg';
+import WaterfallPicture from './../images/waterfall.jpg';
 
 // Page Headers
 
@@ -37,7 +40,7 @@ export const exp_frogslayer = {
     "link": "www.frogslayer.com",
     "description": `Work side by side with senior developers while building out a large integrated system using a variety of technologies and tools.
 
-- Use variety of technologies to assist development progress across different platfroms
+- Use variety of technologies to assist development progress across different platforms
 - Assist senior developers in identifying and accomplishing client needs
 - Use tools such as Azure, C#, Swift, and more`
 }
@@ -92,4 +95,23 @@ export const proj_pythonInstructor = {
     "image": PythonPicture,
     "link": "",
     "linkName": ""
+}
+
+// About Me Data
+
+export const me_images = [GreecePicture, WaterfallPicture, ChristmasPicture];
+
+export const me_programming = {
+    "title": "Programming",
+    "body": "Ok I know, programming doesn't really count as a hobby when it is your career. Well I say too bad, because more of my time probably goes into learning new development skills than any other hobby of mine. I particularly love learning about software architecture and best design practices. I'm also teaching myself web development and some basic video game development as a fun side project!"
+}
+
+export const me_reading = {
+    "title": "Reading",
+    "body": "Reading is absolutely one of my favorite hobbies. There is no better way to relax after a long day than getting lost in a new world. I typically stick to the fantasy/sci-fi genre, however I branch out when an interesting book crosses my path. Lately I've been reading The Five Dysfunctions of a Team and the Mistborn series."
+}
+
+export const me_travelling = {
+    "title": "Travelling",
+    "body": "Particularly unique? No. True? Yes. I love to travel. In addition to the places I have visited in the United States, I have been to Mexico, Honduras, Belize, Italy, and most recently a study abroad in Greece."
 }
