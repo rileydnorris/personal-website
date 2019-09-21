@@ -10,4 +10,4 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         """Returns the url to access a detail record for this post."""
-        return reverse('post-detail', args=[str(self.id)])
+        return reverse('posts', args=[str(self.id)])
