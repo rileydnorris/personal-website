@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .serializers import PostSerializer
 from blog.models import Post
 
-class PostsAPI(generics.ListCreateAPIView, generics.RetrieveUpdateAPIView):
+class PostsAPI(generics.ListCreateAPIView, generics.UpdateAPIView, generics.DestroyAPIView):
     serializer_class = PostSerializer
     queryset = Post.objects.all()
 
