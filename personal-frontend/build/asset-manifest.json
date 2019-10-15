@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cd8c5cb.chunk.css",
+    "main.js": "/static/js/main.e54b5811.chunk.js",
+    "main.js.map": "/static/js/main.e54b5811.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.2443cda8.js",
+    "runtime~main.js.map": "/static/js/runtime~main.2443cda8.js.map",
+    "static/js/2.2a692b5d.chunk.js": "/static/js/2.2a692b5d.chunk.js",
+    "static/js/2.2a692b5d.chunk.js.map": "/static/js/2.2a692b5d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a90e6343c078d04de448f86eb0ee5e92.js": "/precache-manifest.a90e6343c078d04de448f86eb0ee5e92.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4cd8c5cb.chunk.css.map": "/static/css/main.4cd8c5cb.chunk.css.map",
+    "static/media/family-christmas.jpg": "/static/media/family-christmas.4167375a.jpg",
+    "static/media/function-field.jpg": "/static/media/function-field.861eb8e5.jpg",
+    "static/media/open-invite-1.PNG": "/static/media/open-invite-1.24f8ac06.PNG",
+    "static/media/professional_photo.jpg": "/static/media/professional_photo.967b60c5.jpg",
+    "static/media/python.png": "/static/media/python.ec38934f.png",
+    "static/media/temple.jpg": "/static/media/temple.9b50164a.jpg",
+    "static/media/waterfall.jpg": "/static/media/waterfall.eeb02ce0.jpg"
+  }
+}
