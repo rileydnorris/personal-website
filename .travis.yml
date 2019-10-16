@@ -6,12 +6,12 @@ services:
     - docker
 
 #Build our test Docker container
-before_install:
-  - docker build -t rileydnorris-frontend-test -f Dockerfile.test .
+# before_install:
+#   - docker build -t rileydnorris-frontend-test -f Dockerfile.test .
 
-#Run our test Docker container
-script:
-  - docker run rileydnorris-frontend-test
+# #Run our test Docker container
+# script:
+#   - docker run rileydnorris-frontend-test
 
 #Build our deployment container
 before_deploy:
