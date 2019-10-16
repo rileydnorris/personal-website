@@ -1,3 +1,5 @@
+language: node_js
+
 #Request root permissions to the TravisCI runtime environment
 sudo: required
 
