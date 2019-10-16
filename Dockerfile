@@ -2,7 +2,7 @@
 FROM node:alpine as builder
 
 #Setting the working directory inside the container to be the same name as our app on our local machine.
-WORKDIR "/personal-frontend"
+WORKDIR "/rileydnorris-frontend"
 
 #Copying our package.json file from our local machine to the working directory inside the docker container.
 COPY package.json ./
@@ -20,7 +20,7 @@ RUN yarn run build
 FROM mesosphere/aws-cli
 
 #Using the alias defined for the first container, copy the contents of the build folder to this container
-COPY --from=builder /personal-frontend/build .
+COPY --from=builder /rileydnorris-frontend/build .
 
 #Set the default command of this container to push the files from the working directory of this container to our s3 bucket 
 CMD ["s3", "sync", "./", "s3://rileydnorris.com"] 
