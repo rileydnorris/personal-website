@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.not-found__404 {
+    margin-bottom: 10px;
+    font-size: 82px;
+}
+
 .not-found__header {
     margin: 0;
 }

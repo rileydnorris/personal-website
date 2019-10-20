@@ -25,3 +25,10 @@
 .experience__aboutme-description {
     width: 100%;
 }
+
+.experience__aboutme-link {
+    margin: 0px;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--theme_blue);
+}

@@ -9,6 +9,10 @@ export default class AboutMePage extends Component {
 
     constructor(props) { super(props) }
 
+    componentDidMount() {
+        document.title = "Riley Norris - About Me"
+    }
+
     render() {
         return (
             <div>

@@ -7,18 +7,22 @@ import './home.css';
 export default class HomePage extends Component {
     constructor(props) { super(props) }
 
+    componentDidMount() {
+        document.title = "Riley Norris - Home"
+    }
+
     render() {    
         return (
             <div className="intro__container">
                 <div className="intro__photo-container">
-                <img className="intro__photo" src={professional_photo} alt=""/>
+                    <img className="intro__photo" src={professional_photo} alt=""/>
                 </div>
                 <div className="intro__text-circle-container">
-                <h1 className="intro__title">Hello World.</h1>
-                <p className="intro__subtitle">Texas A&M Computer Science student with two years of industry experience</p>
-                <LinkCircleComponent bgColor='cadetBlue' title='Experience' link='/experience'/>
-                <LinkCircleComponent bgColor='midnightBlue' title='Projects' link='/projects'/>
-                <LinkCircleComponent bgColor='firebrick' title='Contact' link='#footer'/>
+                    <h1 className="intro__title">Hello World.</h1>
+                    <p className="intro__subtitle">Texas A&M Computer Science student with two years of industry experience</p>
+                    <LinkCircleComponent bgColor='cadetBlue' title='Experience' link='/experience'/>
+                    <LinkCircleComponent bgColor='midnightBlue' title='Projects' link='/projects'/>
+                    <LinkCircleComponent bgColor='firebrick' title='Contact' link='#footer'/>
                 </div>
             </div>
         )

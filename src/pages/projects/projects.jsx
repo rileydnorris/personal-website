@@ -13,6 +13,10 @@ export default class ProjectsPage extends Component {
     
     constructor(props) { super(props) }
 
+    componentDidMount() {
+        document.title = "Riley Norris - Projects"
+    }
+
     render() {
         return (
             <div>
