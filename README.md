@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website Frontend: rileydnorris.com
+[Backend Repository](https://github.com/rileydnorris/rileydnorris.com-backend)
 
-## Available Scripts
+## Description
+This is the repository for the frontend code for the website [rileydnorris.com](rileydnorris.com). This is a website to serve as a portfolio for my experience throughout my career. The website will tranform over time to include a full-featured blog where I can expand more on my experiences and what I have learned. More information on this can be found below.
 
-In the project directory, you can run:
+## Roadmap
 
-### `npm start`
+### Milestone v1
+The first milestone is having feature parity with the website [people.tamu.edu/~rileydnorris](people.tamu.edu/~rileydnorris). This site was created by me using HTML for a class project. After completing that project, I decided I wanted a more complete site built in react, and this milestone will be all about catching up to that site. This will mean the site will be 100% complete from the perspective of being a portfolio for me and my experiences.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Complete list:**
+- [ ] Home page with a minimal intro to me and my experiences
+- [ ] Experiences page with listed work expereince and description of career thus far, must include a link to resume as PDF
+- [ ] Projects page with list of top personal projects and list of top skills
+- [x] About me page with a list of hobbies and a few pictures
+- [x] Footer containing contact information and links to relevant social media
+- [x] CI/CD Pipelin with Docker and Travis CI
+- [x] Hosting on AWS at [rileydnorris.com](rileydnorris.com)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Milestone v2
+The second milestone will add a blog with the ability to view past posts. This will allow me to share things of interest to me, as well as more info on my previous expereinces throughout my career.
 
-### `npm test`
+**Complete list:**
+- [ ] Blog page with a list of all previous blog entries
+- [ ] Blog detail page with the ability to view a blog post
+- [ ] Fully functioning and hosted backend service and database with ability to store blog data
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Milestone v3 & Onward
+To be defined as time nears closer, some items include commenting with login system, indepth styling on blog posts, email notifictions, RSS feed, and more.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Contributing
+If you run into any issues with the site, feel free to leave an issue here on GitHub, or email me directly at [rileydnorris@gmail.com](mailto:rileydnorris@gmail.com).
