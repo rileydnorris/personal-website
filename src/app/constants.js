@@ -37,7 +37,7 @@ export const exp_frogslayer = {
     "jobTitle": "Junior Developer",
     "beginDate": "June 2019",
     "endDate": "Present",
-    "link": "www.frogslayer.com",
+    "link": "https://www.frogslayer.com",
     "description": `Work side by side with senior developers while building out a large integrated system using a variety of technologies and tools.
 
 - Use variety of technologies to assist development progress across different platforms
@@ -50,7 +50,7 @@ export const exp_sympliactIOS = {
     "jobTitle": "iOS Project Manager",
     "beginDate": "December 2017",
     "endDate": "May 2019",
-    "link": "www.sympliact.com",
+    "link": "https://www.sympliact.com",
     "description": `In charge of development of an iOS app to collect and manage a patient's demographic and health history information for a large scale healthcare platform. 
 
 - Used Swift to build over 50 unique pages as specified by client 
@@ -63,7 +63,7 @@ export const exp_sympliactProductManager = {
     "jobTitle": "Product Manager",
     "beginDate": "September 2018",
     "endDate": "April 2019",
-    "link": "www.sympliact.com",
+    "link": "https://www.sympliact.com",
     "description": `Conducted the coordination of separate web, backend, iOS, and Android teams to build an expansive medical platform application. 
 
 - Translated business requirments from company CEO to development actionables 

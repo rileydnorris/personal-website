@@ -17,9 +17,6 @@
     width: 25%;
 }
 
-.footer__container--link {
-}
-
 /* Footer Items */
 
 .footer__header {
@@ -47,5 +44,7 @@
 }
 
 .footer__link {
+    height: 39px;
+    line-height: 39px;
     font-size: 18px;
 }

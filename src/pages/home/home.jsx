@@ -16,9 +16,9 @@ export default class HomePage extends Component {
                 <div className="intro__text-circle-container">
                 <h1 className="intro__title">Hello World.</h1>
                 <p className="intro__subtitle">Texas A&M Computer Science student with two years of industry experience</p>
-                <LinkCircleComponent bgColor='cadetBlue' title='Experience' link=''/>
-                <LinkCircleComponent bgColor='midnightBlue' title='Projects' link=''/>
-                <LinkCircleComponent bgColor='firebrick' title='Contact' link=''/>
+                <LinkCircleComponent bgColor='cadetBlue' title='Experience' link='/experience'/>
+                <LinkCircleComponent bgColor='midnightBlue' title='Projects' link='/projects'/>
+                <LinkCircleComponent bgColor='firebrick' title='Contact' link='#footer'/>
                 </div>
             </div>
         )

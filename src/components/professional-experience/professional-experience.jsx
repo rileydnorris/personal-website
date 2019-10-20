@@ -17,7 +17,7 @@ export default class ProfessionalExperienceComponent extends Component {
                     <div className="pro__container--details">
                         <h2 className="pro__detail__title">{this.props.data["title"]}</h2>
                         <p className="pro__detail__job-title">{this.props.data["jobTitle"]}</p>
-                        <a className="pro__detail__link" href={this.props.data["link"]}>Link</a>
+                        <a className="pro__detail__link" target="_blank" href={this.props.data["link"]}>Link</a>
                         <p className="pro__detail__description">{this.props.data["description"]}</p>
                     </div>
                 </div>

@@ -1,0 +1,17 @@
+.not-found__container {
+    padding: 100px;
+    text-align: center;
+}
+
+.not-found__header {
+    margin: 0;
+}
+
+.not-found__subtitle {
+    margin: 5px 0px 20px 0px;
+    font-style: italic;
+}
+
+.not-found__link {
+    color: var(--theme_blue);
+}
