@@ -1,5 +1,5 @@
 import OpenInvitePicture from '../images/open-invite-1.PNG';
-import FunctionFieldPicture from '../images/function-field.jpg';
+import WebsiteHomePicture from '../images/rileydnorris_home.png';
 import PythonPicture from '../images/python.png';
 import GreecePicture from './../images/temple.jpg';
 import ChristmasPicture from './../images/family-christmas.jpg';
@@ -20,6 +20,11 @@ export const head_aboutMe = {
 export const head_skills = {
     "title": "Skills & Technologies",
     "subtitle": "The skills and technologies I've used throughout my career"
+}
+
+export const head_contact = {
+    "title": "Contact",
+    "subtitle": "Feel free to contact me for recruiting purposes or just general questions"
 }
 
 // Experience Data
@@ -73,19 +78,19 @@ export const exp_sympliactProductManager = {
 
 // Projects Data
 
+export const proj_rileydnorris = {
+    "title": "rileydnorris.com",
+    "description": "This website! This is used as a test bed for a variety of technologies I've wanted to learn, including React, Django, AWS, Docker, and Travis CI. More is being built on at all times, including a full-featured blog I'm writing from scratch.",
+    "image": WebsiteHomePicture,
+    "link": "https://github.com/rileydnorris/rileydnorris.com-frontend",
+    "linkName": "Learn more"
+}
+
 export const proj_openInvite = {
     "title": "Open Invite - Hackathon",
     "description": "Won first place prize for best use of Snapchat's Snapkit API in an iOS, Android, or Web application at TAMUHack 2019. Open Invite is an application to allow user's to send a general invite to their friend groups, allowing user's to easily schedule times to meet up with their friends.",
     "image": OpenInvitePicture,
     "link": "https://devpost.com/software/openinvite-tz6lvq",
-    "linkName": "Learn more"
-}
-
-export const proj_functionField = {
-    "title": "Function Field",
-    "description": "iOS dependency to allow customizable function specific text fields out of the box. Examples include a built in date picker text field, a phone number text field with auto-formatting, and more.",
-    "image": FunctionFieldPicture,
-    "link": "https://github.com/rileydnorris/FunctionField",
     "linkName": "Learn more"
 }
 

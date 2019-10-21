@@ -27,8 +27,8 @@ export default class ProjectsPage extends Component {
                     <LinkCardComponent title="YouTube" image={YouTubePhoto} link="https://www.youtube.com/channel/UC3k_kbyhfOi7d9Jzvu_MXBw?"/>
                 </div>
                 <div className="image-card-items__container">
+                    <ImageCardComponent data={Constants.proj_rileydnorris}/>
                     <ImageCardComponent data={Constants.proj_openInvite}/>
-                    <ImageCardComponent data={Constants.proj_functionField}/>
                     <ImageCardComponent data={Constants.proj_pythonInstructor}/>
                 </div>
 
