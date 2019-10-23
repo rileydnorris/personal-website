@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './generic-title-body.css';
+import React, {Component} from "react";
+import "./generic-title-body.css";
 
 export default class GenericTitleBodyComponent extends Component {
 

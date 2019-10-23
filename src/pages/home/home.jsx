@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
-import LinkCircleComponent from '../../components/link-circle/link-circle'
-import professional_photo from '../../images/professional_photo.jpg'
+import React, {Component} from "react";
+import LinkCircleComponent from "../../components/link-circle/link-circle"
+import professional_photo from "../../images/professional_photo.jpg"
 
-import './home.css';
+import "./home.css";
 
 export default class HomePage extends Component {
     constructor(props) { super(props) }
 
-    componentDidMount() {
+    componentWillMount() {
         document.title = "Riley Norris - Home"
     }
 
@@ -20,9 +20,9 @@ export default class HomePage extends Component {
                 <div className="intro__text-circle-container">
                     <h1 className="intro__title">Hello World.</h1>
                     <p className="intro__subtitle">Texas A&M Computer Science student with two years of industry experience</p>
-                    <LinkCircleComponent bgColor='cadetBlue' title='Experience' link='/experience'/>
-                    <LinkCircleComponent bgColor='midnightBlue' title='Projects' link='/projects'/>
-                    <LinkCircleComponent bgColor='firebrick' title='Contact' link='#footer'/>
+                    <LinkCircleComponent bgColor="cadetBlue" title="Experience" link="/experience"/>
+                    <LinkCircleComponent bgColor="midnightBlue" title="Projects" link="/projects"/>
+                    <LinkCircleComponent bgColor="firebrick" title="Contact" link="/contact"/>
                 </div>
             </div>
         )

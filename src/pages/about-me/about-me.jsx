@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
-import TitleHeaderComponent from '../../components/title-header/title-header';
-import './about-me.css';
-import * as Constants from '../../app/constants';
-import VerticalImageListComponent from '../../components/vertical-image-list/vertical-image-list';
-import GenericTitleBodyComponent from '../../components/generic-title-body/generic-title-body';
+import React, {Component} from "react";
+import TitleHeaderComponent from "../../components/title-header/title-header";
+import "./about-me.css";
+import * as Constants from "../../app/constants";
+import VerticalImageListComponent from "../../components/vertical-image-list/vertical-image-list";
+import GenericTitleBodyComponent from "../../components/generic-title-body/generic-title-body";
 
 export default class AboutMePage extends Component {
 
     constructor(props) { super(props) }
 
-    componentDidMount() {
+    componentWillMount() {
         document.title = "Riley Norris - About Me"
     }
 

@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './link-card.css'
+import React, {Component} from "react";
+import "./link-card.css"
 
 export default class LinkCardComponent extends Component {
 

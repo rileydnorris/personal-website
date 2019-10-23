@@ -1,19 +1,19 @@
-import React, {Component} from 'react';
-import TitleHeaderComponent from '../../components/title-header/title-header';
-import ImageCardComponent from '../../components/image-card/image-card';
-import LinkCardComponent from '../../components/link-card/link-card';
-import * as Constants from '../../app/constants'
-import './projects.css'
-import GithubPhoto from '../../images/github.png'
-import LinkedInPhoto from '../../images/linkedin.png'
-import YouTubePhoto from '../../images/youtube.png'
-import TextCardComponent from '../../components/text-card/text-card';
+import React, {Component} from "react";
+import TitleHeaderComponent from "../../components/title-header/title-header";
+import ImageCardComponent from "../../components/image-card/image-card";
+import LinkCardComponent from "../../components/link-card/link-card";
+import * as Constants from "../../app/constants"
+import "./projects.css"
+import GithubPhoto from "../../images/github.png"
+import LinkedInPhoto from "../../images/linkedin.png"
+import YouTubePhoto from "../../images/youtube.png"
+import TextCardComponent from "../../components/text-card/text-card";
 
 export default class ProjectsPage extends Component {
     
     constructor(props) { super(props) }
 
-    componentDidMount() {
+    componentWillMount() {
         document.title = "Riley Norris - Projects"
     }
 

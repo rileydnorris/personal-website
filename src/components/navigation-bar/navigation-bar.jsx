@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {NavLink, Link} from 'react-router-dom';
-import './navigation-bar.css';
+import React, {Component} from "react";
+import {NavLink, Link} from "react-router-dom";
+import "./navigation-bar.css";
 
 export default class NavigationBarComponent extends Component {
     

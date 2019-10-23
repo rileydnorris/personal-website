@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './title-header.css'
+import React, {Component} from "react";
+import "./title-header.css"
 
 export default class TitleHeaderComponent extends Component {
     

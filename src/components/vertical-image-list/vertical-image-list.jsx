@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './vertical-image-list.css';
+import React, {Component} from "react";
+import "./vertical-image-list.css";
 
 export default class VerticalImageListComponent extends Component {
 

@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './text-card.css'
+import React, {Component} from "react";
+import "./text-card.css"
 
 export default class TextCardComponent extends Component {
 

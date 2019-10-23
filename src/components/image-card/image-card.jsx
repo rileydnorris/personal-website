@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './image-card.css';
+import React, {Component} from "react";
+import "./image-card.css";
 
 export default class ImageCardComponent extends Component {
 

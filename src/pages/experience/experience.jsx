@@ -10,7 +10,7 @@ export default class ExperiencePage extends Component {
 
     constructor(props) { super(props) }
 
-    componentDidMount() {
+    componentWillMount() {
         document.title = "Riley Norris - Experience"
     }
 
@@ -22,7 +22,7 @@ export default class ExperiencePage extends Component {
                 </div>
                 <div className="experience__container--aboutme">
                     <h1>Professional Experience</h1>
-                    <a className='experience__aboutme-link' target='_blank' href={resume}>View Resume</a>
+                    <a className="experience__aboutme-link" target="_blank" href={resume}>View Resume</a>
                     <NavLink className="experience__aboutme-link" to="/projects">View Personal Projects</NavLink>
                     <p>{Constants.exp_aboutMe["description"]}</p>
                 </div>

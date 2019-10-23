@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './professional-experience.css'
+import React, {Component} from "react";
+import "./professional-experience.css"
 
 export default class ProfessionalExperienceComponent extends Component {
     

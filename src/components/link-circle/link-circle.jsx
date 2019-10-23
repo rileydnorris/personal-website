@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import './link-circle.css'
+import React, {Component} from "react"
+import "./link-circle.css"
 
 export default class LinkCircleComponent extends Component {
 
