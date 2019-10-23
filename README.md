@@ -11,8 +11,8 @@ The first milestone is having feature parity with the website [people.tamu.edu/~
 
 **Complete list:**
 - [ ] Home page with a minimal intro to me and my experiences
-- [ ] Experiences page with listed work expereince and description of career thus far, must include a link to resume as PDF
-- [ ] Projects page with list of top personal projects and list of top skills
+- [x] Experiences page with listed work experience and description of career thus far, must include a link to resume as PDF
+- [x] Projects page with list of top personal projects and list of top skills
 - [x] About me page with a list of hobbies and a few pictures
 - [x] Footer containing contact information and links to relevant social media
 - [x] CI/CD Pipelin with Docker and Travis CI
