@@ -7,7 +7,7 @@ export default class ImageCardComponent extends Component {
 
     render() {
         return (
-            <div className="image-card__container">
+            <div className="image-card__container card">
                 <img className="image-card__image" src={this.props.data["image"]} alt=""/>
                 <div className="image-card__container--details">
                     <h2 className="image-card__title">{this.props.data["title"]}</h2>

@@ -7,7 +7,7 @@ export default class LinkCardComponent extends Component {
 
     render() {
         return (
-            <a className="link-card__container" target="_blank" href={this.props.link}>
+            <a className="link-card__container card" target="_blank" href={this.props.link}>
                 <img className="link-card__image" src={this.props.image} alt=""/>
                 <p className="link-card__title">{this.props.title}</p>
             </a>

@@ -7,7 +7,7 @@ export default class TextCardComponent extends Component {
 
     render() {
         return (
-            <div className="text-card__container">
+            <div className="text-card__container card">
                 <p className="text-card__title">{this.props.title}</p>
             </div>
         )
