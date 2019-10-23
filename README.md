@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rileydnorris/rileydnorris.com-frontend.svg?branch=master)](https://travis-ci.com/rileydnorris/rileydnorris.com-frontend)
+
 # Website Frontend: rileydnorris.com
 [Backend Repository](https://github.com/rileydnorris/rileydnorris.com-backend)
 
