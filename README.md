@@ -1,7 +1,9 @@
-# Website Frontend: rileydnorris.com
-[Backend Repository](https://github.com/rileydnorris/rileydnorris.com-backend)
+# rileydnorris.com - Frontend
+[![Build Status](https://travis-ci.com/rileydnorris/rileydnorris.com-frontend.svg?branch=master)](https://travis-ci.com/rileydnorris/rileydnorris.com-frontend)
 
 ## Description
+[Backend Repository](https://github.com/rileydnorris/rileydnorris.com-backend)
+
 This is the repository for the frontend code for the website [rileydnorris.com](rileydnorris.com). This is a website to serve as a portfolio for my experience throughout my career. The website will tranform over time to include a full-featured blog where I can expand more on my experiences and what I have learned. More information on this can be found below.
 
 ## Roadmap
