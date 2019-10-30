@@ -1,9 +1,9 @@
-import OpenInvitePicture from '../images/open-invite-1.PNG';
-import WebsiteHomePicture from '../images/rileydnorris_home.png';
-import PythonPicture from '../images/python.png';
-import GreecePicture from './../images/temple.jpg';
-import ChristmasPicture from './../images/family-christmas.jpg';
-import WaterfallPicture from './../images/waterfall.jpg';
+import OpenInvitePicture from '../../images/open-invite-1.PNG';
+import WebsiteHomePicture from '../../images/rileydnorris_home.png';
+import PythonPicture from '../../images/python.png';
+import GreecePicture from './../../images/temple.jpg';
+import ChristmasPicture from './../../images/family-christmas.jpg';
+import WaterfallPicture from './../../images/waterfall.jpg';
 
 // Page Headers
 
