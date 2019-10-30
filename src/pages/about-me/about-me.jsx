@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import TitleHeaderComponent from "../../components/title-header/title-header";
 import "./about-me.css";
-import * as Constants from "../../app/constants";
+import * as Constants from "../../app/constants/constants";
 import VerticalImageListComponent from "../../components/vertical-image-list/vertical-image-list";
 import GenericTitleBodyComponent from "../../components/generic-title-body/generic-title-body";
 

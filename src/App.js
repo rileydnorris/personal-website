@@ -18,7 +18,6 @@ function App() {
         <NavigationBarComponent/>
           <Switch>
             <Route exact path="/" component={HomePage}/>
-            <Route path="/home" component={HomePage}/>
             <Route path="/experience" component={ExperiencePage}/>
             <Route path="/projects" component={ProjectsPage}/>
             <Route path="/about-me" component={AboutMePage}/>

@@ -17,7 +17,7 @@ export default class PageNotFoundPage extends Component {
                 <h1 className="not-found__header">This is not the page you are looking for...</h1>
                 <p className="not-found__subtitle">* hand waving *</p>
                 <p>The page you are trying to reach could not be found, double check your url or 
-                    <Link className="not-found__link" to="/home"> return to home</Link>
+                    <Link className="not-found__link" to="/"> return to home</Link>
                     .
                 </p>
             </div>

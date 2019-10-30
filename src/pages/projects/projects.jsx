@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import TitleHeaderComponent from "../../components/title-header/title-header";
 import ImageCardComponent from "../../components/image-card/image-card";
 import LinkCardComponent from "../../components/link-card/link-card";
-import * as Constants from "../../app/constants"
+import * as Constants from "../../app/constants/constants"
 import "./projects.css"
 import GithubPhoto from "../../images/github.png"
 import LinkedInPhoto from "../../images/linkedin.png"

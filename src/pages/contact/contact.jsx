@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import TitleHeaderComponent from "../../components/title-header/title-header";
-import * as Constants from "../../app/constants";
+import * as Constants from "../../app/constants/constants";
 import GitHubImage from "../../images/github.png";
 import LinkedInImage from "../../images/linkedin.png";
 import "./contact.css";

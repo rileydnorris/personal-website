@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import ProfessionalExperienceComponent from '../../components/professional-experience/professional-experience';
-import * as Constants from '../../app/constants';
+import * as Constants from '../../app/constants/constants';
 import './experience.css';
 import professional_photo from '../../images/professional_photo.jpg';
 import resume from '../../images/Riley_Norris_Resume.pdf';
